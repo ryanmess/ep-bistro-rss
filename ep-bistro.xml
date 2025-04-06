@@ -1,63 +1,41 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+import html
+
+# Regenerate RSS items with proper escaping for XML
+rss_items_escaped = ""
+for event in events:
+    pub_date = datetime.strptime(event["date"], "%Y-%m-%d").strftime("%a, %d %b %Y 18:00:00 GMT")
+    desc_lines = []
+    if event["breakfast"]:
+        desc_lines.append(f"🥞 Breakfast: {html.escape(event['breakfast'])}")
+    if event["lunch"]:
+        desc_lines.append(f"🍔 Lunch: {html.escape(event['lunch'])}")
+    desc_lines.append(f"🍽️ Dinner: {html.escape(event['dinner'])} (5:45 PM – 7:00 PM)")
+    if event["notes"]:
+        desc_lines.append(f"📝 {html.escape(event['notes'])}")
+    description = "\n".join(desc_lines)
+    title = f"{datetime.strptime(event['date'], '%Y-%m-%d').strftime('%B %d')} ({event['day']}): {html.escape(event['dinner'])}"
+    rss_items_escaped += f"""
+    <item>
+      <title>{title}</title>
+      <description>{description}</description>
+      <pubDate>{pub_date}</pubDate>
+    </item>
+    """
+
+rss_feed_escaped = f"""<?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0">
   <channel>
-    <title>EP Bistro - Dinner Menu & Meal Times</title>
+    <title>EP Bistro - Dinner Menu &amp; Meal Times</title>
     <description>Upcoming dinner menus and meal times at EP Bistro for April 2025.</description>
     <link>http://example.com/ep-bistro</link>
-    <lastBuildDate>Sun, 06 Apr 2025 14:29:07 GMT</lastBuildDate>
-    
-    <item>
-      <title>April 09 (Wednesday): Pork Chops</title>
-      <description>🥞 Breakfast: 8:30 AM – 10:30 AM
-🍔 Lunch: 11:30 AM – 1:30 PM
-🍽️ Dinner: Pork Chops (5:45 PM – 7:00 PM)</description>
-      <pubDate>Wed, 09 Apr 2025 18:00:00 GMT</pubDate>
-    </item>
-    
-    <item>
-      <title>April 11 (Friday): Friday Fish</title>
-      <description>🥞 Breakfast: 8:30 AM – 10:30 AM
-🍔 Lunch: 11:30 AM – 1:30 PM
-🍽️ Dinner: Friday Fish (5:45 PM – 7:00 PM)</description>
-      <pubDate>Fri, 11 Apr 2025 18:00:00 GMT</pubDate>
-    </item>
-    
-    <item>
-      <title>April 16 (Wednesday): BBQ Ribs</title>
-      <description>🥞 Breakfast: 8:30 AM – 10:30 AM
-🍔 Lunch: 11:30 AM – 1:30 PM
-🍽️ Dinner: BBQ Ribs (5:45 PM – 7:00 PM)</description>
-      <pubDate>Wed, 16 Apr 2025 18:00:00 GMT</pubDate>
-    </item>
-    
-    <item>
-      <title>April 18 (Friday): Friday Fish</title>
-      <description>🥞 Breakfast: 8:30 AM – 10:30 AM
-🍔 Lunch: 11:30 AM – 1:30 PM
-🍽️ Dinner: Friday Fish (5:45 PM – 7:00 PM)</description>
-      <pubDate>Fri, 18 Apr 2025 18:00:00 GMT</pubDate>
-    </item>
-    
-    <item>
-      <title>April 23 (Wednesday): Spaghetti & Meatballs</title>
-      <description>🥞 Breakfast: until 12:30 PM
-🍽️ Dinner: Spaghetti & Meatballs (5:45 PM – 7:00 PM)</description>
-      <pubDate>Wed, 23 Apr 2025 18:00:00 GMT</pubDate>
-    </item>
-    
-    <item>
-      <title>April 25 (Friday): Friday Fish</title>
-      <description>🥞 Breakfast: until 12:30 PM
-🍽️ Dinner: Friday Fish (5:45 PM – 7:00 PM)</description>
-      <pubDate>Fri, 25 Apr 2025 18:00:00 GMT</pubDate>
-    </item>
-    
-    <item>
-      <title>April 30 (Wednesday): Asian Theme Menu</title>
-      <description>🥞 Breakfast: until 12:30 PM
-🍽️ Dinner: Asian Theme Menu (5:45 PM – 7:00 PM)</description>
-      <pubDate>Wed, 30 Apr 2025 18:00:00 GMT</pubDate>
-    </item>
-    
+    <lastBuildDate>{datetime.utcnow().strftime('%a, %d %b %Y %H:%M:%S GMT')}</lastBuildDate>
+    {rss_items_escaped}
   </channel>
 </rss>
+"""
+
+# Save corrected RSS to file
+fixed_path = Path("/mnt/data/ep-bistro-fixed.xml")
+fixed_path.write_text(rss_feed_escaped)
+
+fixed_path.name

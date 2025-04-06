@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+  <channel>
+    <title>EP Bistro - Dinner Menu & Meal Times</title>
+    <description>Upcoming dinner menus and meal times at EP Bistro for April 2025.</description>
+    <link>http://example.com/ep-bistro</link>
+    <lastBuildDate>Sun, 06 Apr 2025 14:29:07 GMT</lastBuildDate>
+    
+    <item>
+      <title>April 09 (Wednesday): Pork Chops</title>
+      <description>🥞 Breakfast: 8:30 AM – 10:30 AM
+🍔 Lunch: 11:30 AM – 1:30 PM
+🍽️ Dinner: Pork Chops (5:45 PM – 7:00 PM)</description>
+      <pubDate>Wed, 09 Apr 2025 18:00:00 GMT</pubDate>
+    </item>
+    
+    <item>
+      <title>April 11 (Friday): Friday Fish</title>
+      <description>🥞 Breakfast: 8:30 AM – 10:30 AM
+🍔 Lunch: 11:30 AM – 1:30 PM
+🍽️ Dinner: Friday Fish (5:45 PM – 7:00 PM)</description>
+      <pubDate>Fri, 11 Apr 2025 18:00:00 GMT</pubDate>
+    </item>
+    
+    <item>
+      <title>April 16 (Wednesday): BBQ Ribs</title>
+      <description>🥞 Breakfast: 8:30 AM – 10:30 AM
+🍔 Lunch: 11:30 AM – 1:30 PM
+🍽️ Dinner: BBQ Ribs (5:45 PM – 7:00 PM)</description>
+      <pubDate>Wed, 16 Apr 2025 18:00:00 GMT</pubDate>
+    </item>
+    
+    <item>
+      <title>April 18 (Friday): Friday Fish</title>
+      <description>🥞 Breakfast: 8:30 AM – 10:30 AM
+🍔 Lunch: 11:30 AM – 1:30 PM
+🍽️ Dinner: Friday Fish (5:45 PM – 7:00 PM)</description>
+      <pubDate>Fri, 18 Apr 2025 18:00:00 GMT</pubDate>
+    </item>
+    
+    <item>
+      <title>April 23 (Wednesday): Spaghetti & Meatballs</title>
+      <description>🥞 Breakfast: until 12:30 PM
+🍽️ Dinner: Spaghetti & Meatballs (5:45 PM – 7:00 PM)</description>
+      <pubDate>Wed, 23 Apr 2025 18:00:00 GMT</pubDate>
+    </item>
+    
+    <item>
+      <title>April 25 (Friday): Friday Fish</title>
+      <description>🥞 Breakfast: until 12:30 PM
+🍽️ Dinner: Friday Fish (5:45 PM – 7:00 PM)</description>
+      <pubDate>Fri, 25 Apr 2025 18:00:00 GMT</pubDate>
+    </item>
+    
+    <item>
+      <title>April 30 (Wednesday): Asian Theme Menu</title>
+      <description>🥞 Breakfast: until 12:30 PM
+🍽️ Dinner: Asian Theme Menu (5:45 PM – 7:00 PM)</description>
+      <pubDate>Wed, 30 Apr 2025 18:00:00 GMT</pubDate>
+    </item>
+    
+  </channel>
+</rss>

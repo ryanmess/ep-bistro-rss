@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+  <channel>
+    <title>EP Bistro - Menu</title>
+    <description>Upcoming menus and meal times at EP Bistro for April 2025.</description>
+    <link>https://ryanmess.github.io/ep-bistro-rss/</link>
+    <lastBuildDate>Mon, 07 Apr 2025 13:48:00 GMT</lastBuildDate>
+    
+    <item>
+      <title>Wednesday, April 9th</title>
+      <description><![CDATA[🥞 <strong>Breakfast:</strong> 8:30 AM – 10:30 AM<br>
+🍔 <strong>Lunch:</strong> 11:30 AM – 1:30 PM<br>
+🍽️ <strong>Dinner:</strong> 5:45 PM – 7:00 PM (Pork Chops)]]></description>
+      <pubDate>Wed, 09 Apr 2025 18:00:00 GMT</pubDate>
+    </item>
+    
+    <item>
+      <title>Friday, April 11th</title>
+      <description><![CDATA[🥞 <strong>Breakfast:</strong> 8:30 AM – 10:30 AM<br>
+🍔 <strong>Lunch:</strong> 11:30 AM – 1:30 PM<br>
+🍽️ <strong>Dinner:</strong> 5:45 PM – 7:00 PM (Friday Fish)]]></description>
+      <pubDate>Fri, 11 Apr 2025 18:00:00 GMT</pubDate>
+    </item>
+    
+    <item>
+      <title>Wednesday, April 16th</title>
+      <description><![CDATA[🥞 <strong>Breakfast:</strong> 8:30 AM – 10:30 AM<br>
+🍔 <strong>Lunch:</strong> 11:30 AM – 1:30 PM<br>
+🍽️ <strong>Dinner:</strong> 5:45 PM – 7:00 PM (BBQ Ribs)]]></description>
+      <pubDate>Wed, 16 Apr 2025 18:00:00 GMT</pubDate>
+    </item>
+    
+    <item>
+      <title>Friday, April 18th</title>
+      <description><![CDATA[🥞 <strong>Breakfast:</strong> 8:30 AM – 10:30 AM<br>
+🍔 <strong>Lunch:</strong> 11:30 AM – 1:30 PM<br>
+🍽️ <strong>Dinner:</strong> 5:45 PM – 7:00 PM (Friday Fish)]]></description>
+      <pubDate>Fri, 18 Apr 2025 18:00:00 GMT</pubDate>
+    </item>
+    
+    <item>
+      <title>Wednesday, April 23rd</title>
+      <description><![CDATA[🥞 <strong>Breakfast:</strong> until 12:30 PM<br>
+🍽️ <strong>Dinner:</strong> 5:45 PM – 7:00 PM (Spaghetti &amp; Meatballs)]]></description>
+      <pubDate>Wed, 23 Apr 2025 18:00:00 GMT</pubDate>
+    </item>
+    
+    <item>
+      <title>Friday, April 25th</title>
+      <description><![CDATA[🥞 <strong>Breakfast:</strong> until 12:30 PM<br>
+🍽️ <strong>Dinner:</strong> 5:45 PM – 7:00 PM (Friday Fish)]]></description>
+      <pubDate>Fri, 25 Apr 2025 18:00:00 GMT</pubDate>
+    </item>
+    
+    <item>
+      <title>Wednesday, April 30th</title>
+      <description><![CDATA[🥞 <strong>Breakfast:</strong> until 12:30 PM<br>
+🍽️ <strong>Dinner:</strong> 5:45 PM – 7:00 PM (Asian Theme Menu)]]></description>
+      <pubDate>Wed, 30 Apr 2025 18:00:00 GMT</pubDate>
+    </item>
+    
+  </channel>
+</rss>

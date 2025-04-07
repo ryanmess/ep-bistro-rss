@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+  <channel>
+    <title>EP Bistro - Menu</title>
+    <description>Upcoming menus and meal times at EP Bistro for April 2025.</description>
+    <link>https://ryanmess.github.io/ep-bistro-rss/</link>
+    <lastBuildDate>Mon, 07 Apr 2025 13:41:05 GMT</lastBuildDate>
+    
+    <item>
+      <title>Wednesday, April 9th</title>
+      <description>🥞 Breakfast: 8:30 AM – 10:30 AM
+🍔 Lunch: 11:30 AM – 1:30 PM
+🍽️ Dinner: 5:45 PM – 7:00 PM (Pork Chops)</description>
+      <pubDate>Wed, 09 Apr 2025 18:00:00 GMT</pubDate>
+      <enclosure url="https://ryanmess.github.io/ep-bistro-rss/ep-bistro-logo.png" type="image/png" length="12345" />
+    </item>
+    
+    <item>
+      <title>Friday, April 11th</title>
+      <description>🥞 Breakfast: 8:30 AM – 10:30 AM
+🍔 Lunch: 11:30 AM – 1:30 PM
+🍽️ Dinner: 5:45 PM – 7:00 PM (Friday Fish)</description>
+      <pubDate>Fri, 11 Apr 2025 18:00:00 GMT</pubDate>
+      <enclosure url="https://ryanmess.github.io/ep-bistro-rss/ep-bistro-logo.png" type="image/png" length="12345" />
+    </item>
+    
+    <item>
+      <title>Wednesday, April 16th</title>
+      <description>🥞 Breakfast: 8:30 AM – 10:30 AM
+🍔 Lunch: 11:30 AM – 1:30 PM
+🍽️ Dinner: 5:45 PM – 7:00 PM (BBQ Ribs)</description>
+      <pubDate>Wed, 16 Apr 2025 18:00:00 GMT</pubDate>
+      <enclosure url="https://ryanmess.github.io/ep-bistro-rss/ep-bistro-logo.png" type="image/png" length="12345" />
+    </item>
+    
+    <item>
+      <title>Friday, April 18th</title>
+      <description>🥞 Breakfast: 8:30 AM – 10:30 AM
+🍔 Lunch: 11:30 AM – 1:30 PM
+🍽️ Dinner: 5:45 PM – 7:00 PM (Friday Fish)</description>
+      <pubDate>Fri, 18 Apr 2025 18:00:00 GMT</pubDate>
+      <enclosure url="https://ryanmess.github.io/ep-bistro-rss/ep-bistro-logo.png" type="image/png" length="12345" />
+    </item>
+    
+    <item>
+      <title>Wednesday, April 23rd</title>
+      <description>🥞 Breakfast: until 12:30 PM
+🍽️ Dinner: 5:45 PM – 7:00 PM (Spaghetti &amp; Meatballs)</description>
+      <pubDate>Wed, 23 Apr 2025 18:00:00 GMT</pubDate>
+      <enclosure url="https://ryanmess.github.io/ep-bistro-rss/ep-bistro-logo.png" type="image/png" length="12345" />
+    </item>
+    
+    <item>
+      <title>Friday, April 25th</title>
+      <description>🥞 Breakfast: until 12:30 PM
+🍽️ Dinner: 5:45 PM – 7:00 PM (Friday Fish)</description>
+      <pubDate>Fri, 25 Apr 2025 18:00:00 GMT</pubDate>
+      <enclosure url="https://ryanmess.github.io/ep-bistro-rss/ep-bistro-logo.png" type="image/png" length="12345" />
+    </item>
+    
+    <item>
+      <title>Wednesday, April 30th</title>
+      <description>🥞 Breakfast: until 12:30 PM
+🍽️ Dinner: 5:45 PM – 7:00 PM (Asian Theme Menu)</description>
+      <pubDate>Wed, 30 Apr 2025 18:00:00 GMT</pubDate>
+      <enclosure url="https://ryanmess.github.io/ep-bistro-rss/ep-bistro-logo.png" type="image/png" length="12345" />
+    </item>
+    
+  </channel>
+</rss>
